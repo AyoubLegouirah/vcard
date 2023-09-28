@@ -53,20 +53,88 @@ body{
     /* La deuxième rangée est à côté de la première */
     grid-column: span 1; /* Cette rangée s'étend sur 1 colonne */
     gap: 10px; /* Espacement entre les éléments de la deuxième rangée */
+    margin-bottom: 200px;
 }
 
 .col-1 {
-    padding: 10px; /* Espace intérieur */
+    /* padding: 10px; Espace intérieur */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
     font-size: 15px;
-    margin-bottom: 5px;
+    
+    
+}
+
+.numero{
+    /* margin-right: 50px;
+    margin-bottom: 50px; */
+    /* margin: -100px 0 0 -20px;  ya moyen c ca     */
+    margin-top: -100px;
+    margin-right: 70px;
     
 }
 
 .col-2 {
-    background-color: #f0f0f0; /* Arrière-plan pour la deuxième colonne */
+    /* padding: 10px; Espace intérieur */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    font-size: 12px;
+    
+}
+
+.outlook{
+    margin: -10px 0 0 12px;
+}
+
+.mail{
+    margin: -20px;
+    padding-right: 10px;
+}
+
+.col-3 {
+    /* padding: 10px; Espace intérieur */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    font-size: 12px;    
+}
+
+.site{
+    margin: 5px 0 0 0px;
+}
+
+.col-4 {
+    /* padding: 10px; Espace intérieur */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    font-size: 12px;    
+}
+
+.itin{
+    margin: 0px 0 0 0px;
+}
+
+
+
+
+/* .outlook{
+    margin-right: 50px;
+    padding-bottom: 80px;
+} */
+
+
+
+
+
+
+
+.col-5 {
     padding: 10px; /* Espace intérieur */
+    padding-top: 200px;
+    direction: rtl;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pixelify Sans', cursive;
 }
 
 
