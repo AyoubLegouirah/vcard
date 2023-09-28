@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(47, 47, 47);
+}
+
+.rectangle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px; 
+        height: 300px;  
+        background-image: url(https://us.123rf.com/450wm/wklzzz/wklzzz1605/wklzzz160500202/56878450-feuilles-de-lierre-isol%C3%A9s-sur-fond-blanc.jpg?ver=6);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 4px 4px 10px gray;
+        margin-top: 5%;
+        margin-left: 35%;
+        transform: rotate(15deg);
+}
+
+.rectangle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; 
+    height: 300px;  
+    background-image: url(https://us.123rf.com/450wm/wklzzz/wklzzz1605/wklzzz160500202/56878450-feuilles-de-lierre-isol%C3%A9s-sur-fond-blanc.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px gray;
+    margin-top: 2%;
+    margin-left: 35%;
+    transform: rotate(15deg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto); /* Deux colonnes de largeur automatique */
+    gap: 10px; /* Espacement entre les éléments */
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, auto); /* Deux colonnes de largeur automatique */
+    gap: 10px; /* Espacement entre les éléments */
+}
+
+.row-1 {
+    /* La première rangée a 4 colonnes */
+    grid-template-columns: repeat(4, 1fr); /* Quatre colonnes égales */
+    gap: 10px; /* Espacement entre les éléments de la première rangée */
+}
+
+.row-2 {
+    /* La deuxième rangée est à côté de la première */
+    grid-column: span 1; /* Cette rangée s'étend sur 1 colonne */
+    gap: 10px; /* Espacement entre les éléments de la deuxième rangée */
+}
+
+.col-1 {
+    padding: 10px; /* Espace intérieur */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+    font-size: 15px;
+    margin-bottom: 5px;
+    
+}
+
+.col-2 {
+    background-color: #f0f0f0; /* Arrière-plan pour la deuxième colonne */
+    padding: 10px; /* Espace intérieur */
+}
+
+
+
+
