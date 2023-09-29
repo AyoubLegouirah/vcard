@@ -1,6 +1,15 @@
 body{
     background-color: rgb(47, 47, 47);
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+      margin-top:100% ;
+    }
+  }
+  
 
 .rectangle{
         display: flex;
@@ -12,7 +21,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         box-shadow: 4px 4px 10px gray;
-        margin-top: 5%;
+        margin-top: 8%;
         margin-left: 35%;
         transform: rotate(15deg);
 }
@@ -34,56 +43,46 @@ body{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(1, auto); /* Deux colonnes de largeur automatique */
-    gap: 10px; /* Espacement entre les éléments */
+    grid-template-columns: repeat(1, auto); 
+    gap: 10px; 
 }
 .grid-container2 {
     display: grid;
-    grid-template-columns: repeat(1, auto); /* Deux colonnes de largeur automatique */
-    gap: 10px; /* Espacement entre les éléments */
+    grid-template-columns: repeat(1, auto); 
+    gap: 10px; 
 }
 
 .row-1 {
-    /* La première rangée a 4 colonnes */
-    grid-template-columns: repeat(4, 1fr); /* Quatre colonnes égales */
-    gap: 10px; /* Espacement entre les éléments de la première rangée */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
 }
 
 .row-2 {
-    /* La deuxième rangée est à côté de la première */
-    grid-column: span 1; /* Cette rangée s'étend sur 1 colonne */
-    gap: 10px; /* Espacement entre les éléments de la deuxième rangée */
+    grid-column: span 1; 
+    gap: 10px; 
     margin-bottom: 200px;
 }
 
 .col-1 {
-    /* padding: 10px; Espace intérieur */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
-    font-size: 15px;
-    
-    
+    font-size: 15px; 
 }
 
 .numero{
-    /* margin-right: 50px;
-    margin-bottom: 50px; */
-    /* margin: -100px 0 0 -20px;  ya moyen c ca     */
     margin-top: -100px;
     margin-right: 70px;
+    font-size: 18px;
     
 }
 
 .col-2 {
-    /* padding: 10px; Espace intérieur */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
     font-size: 12px;
-    
 }
 
 .outlook{
     margin: -10px 0 0 12px;
+    font-size: 15px;
 }
 
 .mail{
@@ -92,8 +91,6 @@ body{
 }
 
 .col-3 {
-    /* padding: 10px; Espace intérieur */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orange;
     font-size: 12px;    
 }
@@ -102,39 +99,17 @@ body{
     margin: 5px 0 0 0px;
 }
 
-.col-4 {
-    /* padding: 10px; Espace intérieur */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.lien{
     color: orange;
-    font-size: 12px;    
+    font-size: 15px; 
 }
-
-.itin{
-    margin: 0px 0 0 0px;
-}
-
-
-
-
-/* .outlook{
-    margin-right: 50px;
-    padding-bottom: 80px;
-} */
-
-
-
-
-
-
 
 .col-5 {
-    padding: 10px; /* Espace intérieur */
+    font-size: 18px;
+    padding: 10px;
     padding-top: 200px;
     direction: rtl;
-    font-family: 'Croissant One', cursive;
-    font-family: 'Dela Gothic One', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Pixelify Sans', cursive;
+    color: black;
 }
 
 
